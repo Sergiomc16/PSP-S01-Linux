@@ -3,7 +3,7 @@
 0. Amplía el tamaño máximo del historial de la shell y configura que cada línea del historial muestre también la fecha y la hora.
 
 ```bash
-export HISTSIZE=10000   # cantidad de comandos
+export HISTSIZE=10000   #cantidad de comandos
 export HISTFILESIZE=20000  # tamaño del fichero de almacenamiento
 export HISTTIMEFORMAT="%F %T " # cambio en el formato de la fecha y la hora
 ```
