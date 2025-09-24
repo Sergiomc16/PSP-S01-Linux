@@ -61,18 +61,17 @@ free -h
 
 6. Lanza un monitor de procesos en tiempo real y observa:
 ```bash
-ps aux
+ps aux   # lista estática de los procesos en ejecución
 # o
-top		# más correcto
+top		# lista dinámica de los procesos en ejecución en modo texto (la mejor)
 # o
-htop
-# comentar las diferencias entre cada uno
+htop    # igual que top pero mejorado (interactivo), con barras de uso y opciones de navegación con flechas
 ```
     
 - Número total de procesos.
-	
+	98
 - Cuál consume más CPU.
-	
+	kworker/0:1-events (PID 1164)
 - Sal del programa.
         
 7. Instala y ejecuta una versión mejorada del monitor de procesos y compárala con la anterior.
@@ -101,22 +100,31 @@ htop -t
     
 10. Lanza el comando `ping` contra `google.com` en segundo plano (&) y obtén su identificador de proceso (PID).
 ```bash
-ping google.com > &
+ping -c 4 google.com &
 ```
     
 11. Finaliza el proceso de Firefox usando su PID.
 ```bash
-
+ps aux | grep firefox    # para buscar su PID
+kill -9 942    # su PID
 ```
     
 12. Vuelve a lanzarlo y esta vez deténlo, luego reactívalo.
 ```bash
-
+firefox &   # volver a lanzarlo en segundo plano
+kill -STOP 942  # pausarlo
+kill -CONT 942   # reactivarlo
 ```
     
 13. Crea un script que capture la señal de interrupción (Ctrl+C) y muestre un mensaje en lugar de cerrarse.
 ```bash
-
+#!/bin/bash
+trap "echo 'No puedes cerrarme con Ctrl+C'" SIGINT
+while true;
+do
+    echo "Ejecutando..."
+    sleep 2
+done
 ```
     
 
