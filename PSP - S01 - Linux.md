@@ -270,12 +270,12 @@ dig google.com
     
 37. Conéctate de forma remota a otra máquina mediante un protocolo seguro (si tienes acceso).
 ```bash
-
+ssh usuario@ip_remota
 ```
     
 38. Copia un archivo desde tu máquina a otra mediante una conexión remota segura.
 ```bash
-
+scp archivo.txt usuario@ip_remota:/ruta/destino/
 ```
     
 
