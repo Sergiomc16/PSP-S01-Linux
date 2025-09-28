@@ -1,0 +1,80 @@
+    1  2025-09-24 17:49:51 history
+    2  2025-09-24 17:50:57 ~/.bash_history
+    3  2025-09-24 18:50:22 export HISTSIZE=10000
+    4  2025-09-24 18:51:28 export HISTFILESIZE=20000
+    5  2025-09-24 18:53:12 export HISTTIMEFORMAT="%F %T "
+    6  2025-09-24 18:53:48 ls
+    7  2025-09-24 18:54:04 ls -l
+    8  2025-09-24 18:54:18 history
+    9  2025-09-24 18:55:49 nano ~/.bashrc
+   10  2025-09-24 19:01:12 HISTORY
+   11  2025-09-24 19:01:18 history
+   12  2025-09-24 19:01:50 uname -a
+   13  2025-09-24 19:01:58 uname -r
+   14  2025-09-24 19:02:05 df -h
+   15  2025-09-24 19:03:24 du -sh /etc
+   16  2025-09-24 19:03:47 free -h
+   17  2025-09-24 19:09:01 top
+   18  2025-09-24 19:12:02 sudo apt install htop
+   19  2025-09-24 19:12:21 htop
+   20  2025-09-24 19:13:51 ps -lax
+   21  2025-09-24 19:14:15 ps -lax | grep tty
+   22  2025-09-24 19:14:51 pstree
+   23  2025-09-24 19:17:29 ping google.com > &
+   24  2025-09-24 19:18:01 pig google.com &
+   25  2025-09-24 19:19:05 ping google.com &
+   26  2025-09-24 19:25:34 killkill all
+   27  2025-09-24 19:25:41 kill
+   28  2025-09-24 19:26:55 xkill
+   29  2025-09-24 19:28:46 history
+   30  2025-09-24 19:31:11 nano ~/.bashrc
+   31  2025-09-24 19:32:48 history
+   32  2025-09-24 19:33:20 ls
+   33  2025-09-24 19:33:29 history
+   34  2025-09-24 19:34:08 export HISTSIZE=10000
+   35  2025-09-24 19:34:16 export HISTFILESIZE=20000
+   36  2025-09-24 19:34:26 export HISTTIMEFORMAT="%F %T "
+   37  2025-09-24 19:34:48 pstree
+   38  2025-09-24 19:34:52 history
+   39  2025-09-24 19:35:37 ping -4 google.com &
+   40  2025-09-24 19:37:09 ping -c 4 google.com &
+   41  2025-09-24 19:37:44 history
+   42  2025-09-24 19:40:10 ps aux | grep firefox
+   43  2025-09-24 19:42:08 kill -9 942
+   44  2025-09-24 19:44:56 firefox &
+   45  2025-09-24 19:45:43 sudo apt install firefox
+   46  2025-09-24 19:48:45 history
+   47  2025-09-24 19:48:53 firefox &
+   48  2025-09-24 19:49:44 kill -STOP 942
+   49  2025-09-24 19:50:04 kill -CONT 942
+   50  2025-09-24 19:53:23 nano script.sh
+   51  2025-09-24 19:57:00 chmod +x script.sh
+   52  2025-09-24 19:57:11 /.script.sh
+   53  2025-09-24 19:58:30 systemctl status ssh
+   54  2025-09-24 19:58:55 sudo systemctl disable ssh
+   55  2025-09-24 19:59:24 sudo systemctl enable ssh
+   56  2025-09-24 20:00:25 ls -la ~
+   57  2025-09-24 20:00:38 mkdir prueba
+   58  2025-09-24 20:03:52 echo "Hola Linux " > prueba/notas.txt
+   59  2025-09-24 20:06:01 cp prueba/notas.txt prueba/copia_notas.txt
+   60  2025-09-24 20:06:59 mv prueba/copia_notas.txt prueba/notas2.txt
+   61  2025-09-24 20:07:23 rm prueba/notas2.txt
+   62  2025-09-24 20:07:45 ls > listado.txt
+   63  2025-09-24 20:08:26 echo "Fin del listado" >> listado.txt
+   64  2025-09-24 20:10:00 let a=3/0 2>/dev/null
+   65  2025-09-24 20:10:28 ps aux | grep bash
+   66  2025-09-24 20:11:05 tail -n 5 listado.txt
+   67  2025-09-24 20:13:09 ip addr
+   68  2025-09-24 20:14:03 ss -tuln
+   69  2025-09-24 20:14:29 host google.com
+   70  2025-09-24 20:14:45 dig google.com
+   71  2025-09-24 20:18:38 sudo adduser alumno1
+   72  2025-09-24 20:19:40 sudo passwd alumno1
+   73  2025-09-24 20:20:49 chmod 755 archivo.txt
+   74  2025-09-24 20:21:25 touch archivo.txt
+   75  2025-09-24 20:21:34 chmod 755 archivo.txt
+   76  2025-09-24 20:22:11 sudo chown alumno archivo.txt
+   77  2025-09-24 20:22:32 sudo chown alumno1 archivo.txt
+   78  2025-09-24 20:22:50 sudo deluser alumno1
+   79  2025-09-24 20:31:12 history
+   80  2025-09-24 20:42:32 history > historial.txt
