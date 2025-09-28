@@ -220,22 +220,24 @@ tail -n 5 listado.txt
 
 28. Crea una tubería con nombre llamada `cola`.
 ```bash
-
+mkfifo cola
 ```
     
 29. Desde una terminal, deja el archivo `cola` en espera de datos. Desde otra terminal, escribe un mensaje en esa tubería.
 ```bash
-
+cat < cola    # en la terminal 1
+echo "Hola" > cola   # en la terminal 2
 ```
     
 30. Verifica que `cola` es realmente una tubería.
 ```bash
-
+file cola   # debería de aparecer named pipe o fifo
 ```
     
 31. Establece un canal de comunicación entre dos terminales locales utilizando una herramienta que permite redirigir flujos de entrada y salida entre sockets.
 ```bash
-
+nc -l 1234  # en la terminal 1 (nc es netcat, pero se podría utilizar otro canal)
+nc localhost 1234  # en la terminal 2
 ```
     
 
